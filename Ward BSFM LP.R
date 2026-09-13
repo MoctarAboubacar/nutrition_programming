@@ -9,7 +9,7 @@ require(tidyverse)
 require(directlabels)
 
 # import data ####
-dat <- read.csv("C:/Users/Leurre/Desktop/BFSP LP/Ward Exposure rank v1.csv")
+dat <- read.csv(here::here("data", "Ward Exposure rank v1.csv"))
 
 # clean and prep data ####
 
